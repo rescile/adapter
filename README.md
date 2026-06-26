@@ -124,5 +124,5 @@ Apache 2.0 — see [LICENSE](LICENSE).
 
 ## Related
 
-- [rescile/ucs](https://github.com/rescile/ucs) — UCS core orchestration engine
-- [Rescile documentation](https://docs.rescile.io)
+- [rescile/ucs](https://download.rescile.com) — UCS core orchestration engine
+- [Rescile documentation](https://docs.rescile.com)

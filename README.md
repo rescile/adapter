@@ -1,8 +1,6 @@
-# rescile-adapters
+# Rescile Adapters (Draft)
 
-Provider-specific adapters for the [Rescile UCS](https://github.com/rescile/ucs) orchestration layer.
-
-This repository contains the execution implementations that bridge Rescile's intent-based orchestration with real cloud provider APIs. Each adapter directory corresponds to a supported provider and implements the domain contracts defined by the UCS domain controllers.
+Provider-specific adapters for the [Rescile UCS](https://download.rescile.com) hybrid cloud orchestrator. This repository contains the execution implementations that bridge Rescile's intent-based orchestration with real cloud provider APIs. Each adapter directory corresponds to a supported provider and implements the domain contracts defined by the UCS domain controllers.
 
 ---
 
@@ -51,22 +49,20 @@ Each provider directory is a self-contained Python package. Files are named afte
 ## Requirements
 
 - Python 3.11+
-- Rescile UCS core (`pip install rescile-ucs`)
+- Rescile UCS 
 - Provider-specific SDKs (e.g. `boto3` for AWS, `azure-mgmt-*` for Azure)
 
 Install all dependencies for a specific provider:
 
 ```bash
-pip install -r aws/requirements.txt
+### TBD
 ```
 
 ---
 
 ## Usage
 
-Adapters are not typically called directly. They are resolved and invoked by UCS domain controllers at execution time based on the target provider configured in your blueprint.
-
-For local development and testing, you can invoke an adapter function directly:
+Adapters are not typically called directly. They are resolved and invoked by UCS domain controllers at execution time based on the target provider configured in your blueprint. For local development and testing, you can invoke an adapter function directly:
 
 ```python
 from rescile_adapters.aws.vpc_builder import build_vpc

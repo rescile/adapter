@@ -1,6 +1,6 @@
 # Rescile Adapters (Draft)
 
-Provider-specific adapters for the [Rescile UCS](https://download.rescile.com) hybrid cloud orchestrator. This repository contains the execution implementations that bridge Rescile's intent-based orchestration with real cloud provider APIs. Each adapter directory corresponds to a supported provider and implements the domain contracts defined by the UCS domain controllers.
+Provider-specific adapters for the [Rescile UCS](https://www.rescile.com/download/) hybrid cloud orchestrator. This repository contains the execution implementations that bridge Rescile's intent-based orchestration with real cloud provider APIs. Each adapter directory corresponds to a supported provider and implements the domain contracts defined by the UCS domain controllers.
 
 ---
 
@@ -124,5 +124,5 @@ Apache 2.0 — see [LICENSE](LICENSE).
 
 ## Related
 
-- [rescile/ucs](https://download.rescile.com) — UCS core orchestration engine
+- [rescile/ucs](https://www.rescile.com/download/) — UCS core orchestration engine
 - [Rescile documentation](https://docs.rescile.com)
